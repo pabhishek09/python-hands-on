@@ -4,6 +4,10 @@ str_var = str1 + " " + str2
 print(str_var)
 print(str_var[0 : 5])
 
+str_list = ['a', 'b', 'ab']
+print('<='.join(str_list)) # joining list of strings together with <= string
+print(', '.join(str_list)) # joining list of strings together with comma and space strings
+
 is_boolean = True
 print(is_boolean)
 
